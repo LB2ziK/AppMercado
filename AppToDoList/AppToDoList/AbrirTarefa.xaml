@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToDoList.AbrirTarefa">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#D2B48C">
+
+            <Label Text="Código:" />
+            <Label x:Name="lbl_id" Text="{ Binding Id }" />
+            
+            <Label Text="Descrição" />
+            <Entry x:Name="txt_descricao" Text="{ Binding Descricao }" />
+
+            <Label Text="Valor Estimado" />
+            <Entry x:Name="txt_valorestimado" Text="{Binding Valor_Estimado}" />
+
+            <Label Text="Valor Pago" />
+            <Entry x:Name="txt_valorpago" Text="{Binding Valor_Pago}" />
+
+            <Button Text="Salvar" Clicked="Button_Clicked" BackgroundColor="#A0522D"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToDoList.TelaInicio">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#D2B48C">
+
+            <Image Source="carrinhomercado.png" 
+               WidthRequest="150"/>
+            
+            
+            
+            
+            <Label Text="Bem Vindo ao Aplicativo MarketNotes!"
+                 FontSize="Large"
+                 VerticalOptions="Start"                 
+                 HorizontalOptions="Start"
+                 FontAttributes="Bold"  />
+           
+            
+            <Button 
+                Clicked="Button_Clicked" 
+                BackgroundColor="#A0522D"
+                TextColor="Black"
+                Text="Entrar"
+                CornerRadius="50"
+                Scale="1"
+                VerticalOptions="Start"
+                HorizontalOptions="EndAndExpand"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
