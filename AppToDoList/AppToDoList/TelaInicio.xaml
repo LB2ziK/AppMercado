@@ -12,7 +12,7 @@
             
             
             
-            <Label Text="Bem Vindo ao Aplicativo MarketNotes!"
+            <Label Text="Bem-Vindo ao Aplicativo MarketNotes!"
                  FontSize="Large"
                  VerticalOptions="Start"                 
                  HorizontalOptions="Start"
